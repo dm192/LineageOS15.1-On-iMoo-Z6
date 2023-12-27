@@ -1,0 +1,116 @@
+PID: 3292 START: 1703667713092431360 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/LineageOS/android.git, -b, lineage-15.1
+
+PID: 3292 START: 1703667713107124224 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/workspaces/codespaces-blank/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 3292 END: 1703667713114768384 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/workspaces/codespaces-blank/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 3292 START: 1703667713116397824 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 3292 END: 1703667713120524544 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 3292 START: 1703667713121196288 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 3292 END: 1703667713125342208 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 3292 START: 1703667713125635584 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 3292 END: 1703667713129704192 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 3292 START: 1703667713129994752 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 3292 END: 1703667713134080768 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 3292 START: 1703667713134465280 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/LineageOS/android.git'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/LineageOS/android.git 1>| 2>|
+
+PID: 3292 END: 1703667713138751232 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/LineageOS/android.git'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/LineageOS/android.git 1>| 2>|
+
+PID: 3292 START: 1703667713139123456 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 3292 END: 1703667713143194112 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 3292 START: 1703667713143657984 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 3292 END: 1703667713147631104 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 3292 START: 1703667713147977728 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 3292 END: 1703667713151901440 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 3292 START: 1703667713152179200 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 3292 END: 1703667713156278016 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 3292 START: 1703667713156738304 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/lineage-15.1:refs/remotes/origin/lineage-15.1', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/workspaces/codespaces-blank/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/lineage-15.1:refs/remotes/origin/lineage-15.1 +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 3292 END: 1703667714283751936 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/lineage-15.1:refs/remotes/origin/lineage-15.1', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/workspaces/codespaces-blank/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/lineage-15.1:refs/remotes/origin/lineage-15.1 +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 3292 START: 1703667714284110080 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 3292 END: 1703667714294456576 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 3292 START: 1703667714295191040 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/lineage-15.1^0'] with debug: : git rev-parse --verify refs/remotes/origin/lineage-15.1^0 1>| 2>|
+
+PID: 3292 END: 1703667714299032576 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/lineage-15.1^0'] with debug: : git rev-parse --verify refs/remotes/origin/lineage-15.1^0 1>| 2>|
+
+PID: 3292 START: 1703667714299616256 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /workspaces/codespaces-blank/.repo/manifests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 3292 END: 1703667714304892416 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /workspaces/codespaces-blank/.repo/manifests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 3292 START: 1703667714305030400 :: load refs /workspaces/codespaces-blank/.repo/manifests.git
+
+PID: 3292 END: 1703667714305356800 :: load refs /workspaces/codespaces-blank/.repo/manifests.git
+
+PID: 3292 START: 1703667714305723136 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'checkout', '-q', '541ea4d543990ec58f3a959ea9b8c727f7195f89', '--'] with debug: : git checkout -q 541ea4d543990ec58f3a959ea9b8c727f7195f89 -- 2>|
+
+PID: 3292 END: 1703667714311242496 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'checkout', '-q', '541ea4d543990ec58f3a959ea9b8c727f7195f89', '--'] with debug: : git checkout -q 541ea4d543990ec58f3a959ea9b8c727f7195f89 -- 2>|
+
+PID: 3292 START: 1703667714311519744 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'update-ref', '-d', 'refs/heads/default'] with debug: : git update-ref -d refs/heads/default 1>| 2>|
+
+PID: 3292 END: 1703667714315404032 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'update-ref', '-d', 'refs/heads/default'] with debug: : git update-ref -d refs/heads/default 1>| 2>|
+
+PID: 3292 START: 1703667714315671296 :: scan refs /workspaces/codespaces-blank/.repo/manifests.git
+
+PID: 3292 END: 1703667714315781120 :: scan refs /workspaces/codespaces-blank/.repo/manifests.git
+
+PID: 3292 START: 1703667714316041472 :: scan refs /workspaces/codespaces-blank/.repo/manifests.git
+
+PID: 3292 END: 1703667714316143616 :: scan refs /workspaces/codespaces-blank/.repo/manifests.git
+
+PID: 3292 START: 1703667714316411904 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '541ea4d543990ec58f3a959ea9b8c727f7195f89'] with debug: : git update-ref refs/heads/default 541ea4d543990ec58f3a959ea9b8c727f7195f89 1>| 2>|
+
+PID: 3292 END: 1703667714321689088 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '541ea4d543990ec58f3a959ea9b8c727f7195f89'] with debug: : git update-ref refs/heads/default 541ea4d543990ec58f3a959ea9b8c727f7195f89 1>| 2>|
+
+PID: 3292 START: 1703667714322047488 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 3292 END: 1703667714326313984 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 3292 START: 1703667714405875968 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'var', 'GIT_COMMITTER_IDENT'] with debug: : git var GIT_COMMITTER_IDENT 1>| 2>|
+
+PID: 3292 END: 1703667714409995520 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'var', 'GIT_COMMITTER_IDENT'] with debug: : git var GIT_COMMITTER_IDENT 1>| 2>|
+
+PID: 3292 START: 1703667735250326016 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'user.name', 'MuWan'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all user.name MuWan 1>| 2>|
+
+PID: 3292 END: 1703667735255101952 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'user.name', 'MuWan'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all user.name MuWan 1>| 2>|
+
+PID: 3292 START: 1703667735255412736 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'user.email', 'dormant192@qq.com'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all user.email dormant192@qq.com 1>| 2>|
+
+PID: 3292 END: 1703667735259821056 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/workspaces/codespaces-blank/.repo/manifests.git/config', '--includes', '--replace-all', 'user.email', 'dormant192@qq.com'] with debug: : git config --file /workspaces/codespaces-blank/.repo/manifests.git/config --includes --replace-all user.email dormant192@qq.com 1>| 2>|
+
+PID: 3292 START: 1703667737413881344 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/home/codespace/.gitconfig', '--includes', '--replace-all', 'color.ui', 'auto'] with debug: : git config --file /home/codespace/.gitconfig --includes --replace-all color.ui auto 1>| 2>|
+
+PID: 3292 END: 1703667737418409472 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--file', '/home/codespace/.gitconfig', '--includes', '--replace-all', 'color.ui', 'auto'] with debug: : git config --file /home/codespace/.gitconfig --includes --replace-all color.ui auto 1>| 2>|
+
+PID: 3292 START: 1703667737418921984 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 3292 END: 1703667737423109888 :git command /workspaces/codespaces-blank/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 3292 END: 1703667737423256832 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/LineageOS/android.git, -b, lineage-15.1
+
